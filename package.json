@@ -1,5 +1,12 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  }
+  "name": "juzo-portfolio",
+  "version": "1.0.0",
+  "description": "My Web Application",
+  "scripts": {
+    "start": "node server.js",
+    "build": "tsc"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {}
 }
