@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-const Arts = () => {
+const Casa = () => {
   return (
     <section className="h-screen bg-blue-700 pt-16">
       <motion.div
@@ -9,7 +9,7 @@ const Arts = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        <h1>Arts</h1>
+        <h1>Casa</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus
           praesentium atque repellat! Obcaecati tempora possimus similique alias
@@ -21,4 +21,4 @@ const Arts = () => {
   );
 };
 
-export default Arts;
+export default Casa;
